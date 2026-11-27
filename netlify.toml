@@ -1,0 +1,7 @@
+[build]
+  base = "mysql-demo"
+  command = "mkdir -p dist && cp index.html dist/"
+  publish = "dist"
+
+[functions]
+  directory = "netlify/functions"
